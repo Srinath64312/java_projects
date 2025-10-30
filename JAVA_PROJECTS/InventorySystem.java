@@ -3,8 +3,11 @@ import java.util.*;
 public class InventorySystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String[] products = new String[10];
-        int[] quantity = new int[10];
+        System.out.print("Enter the no.of products");
+        int n;
+        n=sc.nextInt();
+        String[] products = new String[n];
+        int[] quantity = new int[n];
         int count = 0;
 
         while (true) {
